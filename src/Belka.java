@@ -8,8 +8,9 @@ public class Belka {
         System.out.print("введите количество деревьев:");
         int qty = input.nextInt();
         System.out.println("Количество орехов под каждым деревом:" + Arrays.toString(NutTree.growGroveNutArray(qty)));
-        System.out.println("ИТОГО общий вес:"+Belka.nutHurvest(qty));
+        System.out.println("ИТОГО общий вес:"+Bellka.nutHurvest(qty));
     }
+
 }
 
 class Nut {static double weight = 12.5;}
@@ -24,7 +25,7 @@ class NutTree {
     }
 }
 
-class Belka {
+class Bellka {
     public static double nutHurvest(int qty) {
         double weight = Nut.weight;
         double nuts=0;
